@@ -86,7 +86,7 @@
   },
   "engines": {
     "node":"10",
-    "npm": "5",
+    "npm": "6",
     "yarn": "1"
   },
   "browserslist": [
