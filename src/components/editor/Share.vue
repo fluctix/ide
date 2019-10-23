@@ -68,7 +68,7 @@
     methods: {
       getURL() {
         this.showShareModal = true;
-        if (window.location.href !== this.longURL)
+        if (window.location.href != this.longURL)
           axios.post('https://cb.lk/api/v1/shorten', {
             url: window.location.href,
             code: '',
